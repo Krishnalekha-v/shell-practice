@@ -33,5 +33,6 @@ dnf install $package -y
 validate $? " installing $package"
 else
 echo "$package is already installed"
+fi
 done 
 #echo "user id is: $USERID"
