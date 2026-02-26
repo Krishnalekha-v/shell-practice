@@ -22,7 +22,7 @@ validate()
     echo -e "$2 is .. $g success $n"
     fi
 }
-check root 
+check_root 
 
 for package in $@
 do 
