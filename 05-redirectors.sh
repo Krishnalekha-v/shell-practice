@@ -4,7 +4,7 @@
 # /var/log/shell-script/05-redirectors.sh-<timestamp>.log
 logs_folder="/var/log/shell-script"
 script_name=$(echo $0 | cut -d "." -f1)
-timestamp=$(date+ %Y-%m-%d-%H-%M-%s)
+timestamp=$(date +%Y-%m-%d-%H-%M-%s)
 log_file="$logs_folder/$script_name-$timestamp.log"
 mkdir -p $logs_folder
 
